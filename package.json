@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "open" : "cypress open",
-    "test-electron" : "cypress run" 
+    "test-electron" : "cypress run" ,
+    "smoke-test" : "cypress run --spec \"cypress\\e2e\\smokeTest\\smokeScript.spec.cy.js\" ",
+    "test-electron-headed" : "cypress run --headed"
   },
   "keywords": [],
   "author": "",
